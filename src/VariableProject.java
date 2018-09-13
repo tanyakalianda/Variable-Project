@@ -1,12 +1,13 @@
 /**
  * 
- * @author tkalianda19
+ * @author Tanya Kalianda
  * Variable Project
  */
 public class VariableProject 
 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		String name = "My name is Tanya";
 		System.out.println(name);
 		
@@ -17,9 +18,11 @@ public class VariableProject
 	
 	int radius = 3;
 	double pi = 3.14;
-	double circlearea = radius*radius*pi;
-	System.out.println(circlearea);
-		
+	double circleArea = radius*radius*pi;
+	System.out.println(circleArea);
+	int diameter = 6;
+	double circumference = pi*diameter;
+	System.out.println(circumference);
 	}
 
 }
